@@ -1,0 +1,586 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#101124" />
+  <meta
+    name="description"
+    content="Ayush Satapathy — Software Developer specializing in backend engineering, systems automation, and email infrastructure."
+  />
+  <title>Ayush Satapathy | Software Developer</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&display=swap"
+    rel="stylesheet"
+  />
+
+  <link rel="stylesheet" href="styles.css" />
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <header class="site-header">
+    <nav class="nav container" aria-label="Main navigation">
+      <div class="brand">
+        <span class="brand-name">WELECOME</span>
+      </div>
+
+      <button
+        class="menu-toggle"
+        type="button"
+        aria-expanded="false"
+        aria-controls="nav-links"
+        aria-label="Open menu"
+      >
+        <span></span>
+        <span></span>
+      </button>
+
+      <div class="nav-links" id="nav-links">
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#experience">Experience</a>
+        <a href="#education">Education</a>
+        <a href="#projects">Projects</a>
+        <a href="#social">Social</a>
+
+        <div class="contact-menu">
+          <button
+            class="contact-menu-button"
+            type="button"
+            aria-expanded="false"
+            aria-controls="contact-options"
+          >
+            Contact <span aria-hidden="true">⌄</span>
+          </button>
+          <div class="contact-menu-options" id="contact-options">
+            <a href="mailto:ayushsatapathy13@gmail.com">Email Ayush</a>
+            <a href="tel:+917008301609">Call +91 7008301609</a>
+            <a href="#contact">Contact form</a>
+          </div>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero container" id="home">
+      <div class="hero-copy">
+        <p class="eyebrow">
+          <span class="brand-status" aria-label="Available for opportunities"></span>
+          SOFTWARE DEVELOPER · OPEN TO OPPORTUNITIES
+        </p>
+
+        <h1>Hi, I’m Ayush.<br />I build <span>reliable</span><br />software systems.</h1>
+
+        <p class="hero-description">
+          Computer Science undergraduate with practical experience in backend
+          engineering, systems automation, and email infrastructure. I enjoy
+          solving complex problems with clean, dependable software.
+        </p>
+
+        <div class="recruiter-note">
+          <span class="recruiter-label">FOR RECRUITERS</span>
+          <p>
+            I’m interested in opportunities as a 
+            <strong id="rotating-role">Software Developer</strong>
+            <span class="typing-cursor" aria-hidden="true"></span>
+          </p>
+          <span class="recruiter-subtext">
+            Software Developer · Full-Stack Developer · Web Developer ·
+            Manual QA Tester · Automation Test Engineer · IT Service Desk Engineer ·
+            Java Developer · Business Development Associate/BA
+          </span>
+        </div>
+
+        <div class="job-locations">
+          <h2>Preferred job locations</h2>
+          <div class="location-chips">
+            <span>Pune</span>
+            <span>Mumbai</span>
+            <span>Noida</span>
+            <span>Gurugram</span>
+            <span>Hyderabad</span>
+            <span>Bengaluru</span>
+          </div>
+          <p>Currently based in Bhubaneswar, Odisha · Open to relocating to other cities.</p>
+        </div>
+
+        <div class="hero-actions">
+          <a class="button button-primary" href="#projects">
+            Explore my work <span aria-hidden="true">↓</span>
+          </a>
+          <a class="button button-outline" href="AYUSH_RM.pdf" download>
+            Download résumé <span aria-hidden="true">↗</span>
+          </a>
+        </div>
+
+        <div class="hero-details">
+          <span>⌖ Bhubaneswar, Odisha</span>
+          <a href="tel:+917008301609">☎ +91 7008301609</a>
+          <a href="mailto:ayushsatapathy13@gmail.com">✉ Email me</a>
+        </div>
+      </div>
+
+      <div class="hero-art">
+        <div class="profile-card" id="profile-card">
+          <div class="profile-card-inner">
+            <div class="profile-face profile-front" aria-hidden="false">
+              <img
+                class="profile-photo"
+                src="ayushpic.jpeg"
+                alt="Portrait of Ayush Satapathy"
+              />
+              <div class="photo-caption">
+                <span>AYUSH SATAPATHY</span>
+                <span>SOFTWARE DEVELOPER</span>
+              </div>
+              <button
+                class="flip-trigger"
+                type="button"
+                aria-pressed="false"
+                aria-label="Flip card to see job availability"
+              >
+                Flip for availability <span aria-hidden="true">↻</span>
+              </button>
+            </div>
+
+            <div class="profile-face profile-back" aria-hidden="true">
+              <span class="back-sparkle" aria-hidden="true">✦</span>
+              <p class="eyebrow">OPEN TO OPPORTUNITIES</p>
+              <h2>Ready to build<br /><span>something great.</span></h2>
+              <p>
+                Based in Bhubaneswar, Odisha. Open to roles in my preferred
+                cities and willing to relocate.
+              </p>
+              <a class="back-contact" href="mailto:ayushsatapathy13@gmail.com">
+                Let’s connect ↗
+              </a>
+              <button
+                class="flip-trigger back-trigger"
+                type="button"
+                aria-pressed="true"
+                aria-label="Flip card back to photo"
+              >
+                Back to photo <span aria-hidden="true">↻</span>
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <div class="photo-sticker sticker-top">AVAILABLE ✦</div>
+        <div class="photo-sticker sticker-bottom">BHUBANESWAR, INDIA</div>
+      </div>
+    </section>
+
+    <section class="section container about" id="about">
+      <div>
+        <p class="eyebrow">01 / ABOUT ME</p>
+        <h2>Curious by nature.<br /><span>Reliable by design.</span></h2>
+      </div>
+
+      <div class="about-copy">
+        <p class="lead">
+          I’m a Computer Science undergraduate with hands-on experience building
+          backend services, automation tools, and email infrastructure.
+        </p>
+        <p class="muted">
+          I focus on clean, well-tested code, thoughtful API design, and services
+          that remain reliable as they scale. I’m comfortable debugging
+          protocol-level issues and collaborating with engineering teams to
+          deliver practical solutions.
+        </p>
+        <a
+          class="text-link"
+          href="https://www.linkedin.com/in/ayush-satapathy"
+          target="_blank"
+          rel="noreferrer"
+        >
+          Connect on LinkedIn <span aria-hidden="true">↗</span>
+        </a>
+      </div>
+    </section>
+
+    <section class="section skills-section" id="skills">
+      <div class="container">
+        <div class="section-heading">
+          <p class="eyebrow">02 / TECHNICAL SKILLS</p>
+          <h2>A practical <span>professional toolkit.</span></h2>
+          <p class="section-description">
+            Skills and technologies I can bring to a development or IT team.
+          </p>
+        </div>
+
+        <div class="skills-grid">
+          <article class="skill-card">
+            <span class="skill-number">01</span>
+            <h3>Programming Languages</h3>
+            <p>Python, PHP, Java, JavaScript, SQL, Go, HTML/CSS, and Ruby.</p>
+          </article>
+
+          <article class="skill-card">
+            <span class="skill-number">02</span>
+            <h3>Backend &amp; Databases</h3>
+            <p>REST APIs, MVC patterns, relational database design, MySQL, and PostgreSQL.</p>
+          </article>
+
+          <article class="skill-card">
+            <span class="skill-number">03</span>
+            <h3>Testing &amp; Development Tools</h3>
+            <p>Git, GitHub, VS Code, PyTest, unit testing, and Playwright.</p>
+          </article>
+
+          <article class="skill-card">
+            <span class="skill-number">04</span>
+            <h3>Systems &amp; Networking</h3>
+            <p>SMTP, DNS, SPF, DKIM, DMARC, Linux, and CI/CD.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section experience-section" id="experience">
+      <div class="container">
+        <div class="section-heading">
+          <p class="eyebrow">03 / EXPERIENCE</p>
+          <h2>Where I’ve made <span>an impact.</span></h2>
+        </div>
+
+        <article class="experience-card">
+          <div class="experience-date">AUG 2026 — SEP 2026</div>
+          <div class="experience-main">
+            <p class="role-label">SOFTWARE DEVELOPER · PUNE</p>
+            <h3>VESPAR Media</h3>
+            <ul>
+              <li>
+                Developed backend services and optimized PHP/MySQL queries to
+                reduce latency and improve data-handling reliability across core
+                platform endpoints.
+              </li>
+              <li>
+                Refactored REST endpoints to MVC patterns, reducing average API
+                payload sizes by 20% and improving response times.
+              </li>
+              <li>
+                Authored modular pull requests with automated CI/CD checks for
+                linting and test coverage standards.
+              </li>
+            </ul>
+            <div class="tags">
+              <span>PHP</span><span>MySQL</span><span>REST APIs</span><span>CI/CD</span>
+            </div>
+          </div>
+        </article>
+
+        <article class="experience-card">
+          <div class="experience-date">OCT 2025 — JUN 2026</div>
+          <div class="experience-main">
+            <p class="role-label">SOFTWARE DEVELOPER · NAGPUR</p>
+            <h3>ASP OL Media</h3>
+            <ul>
+              <li>
+                Engineered internal CLI and web automation utilities to
+                streamline verification pipelines across multi-tenant environments.
+              </li>
+              <li>
+                Built Python scripts for domain health and email infrastructure
+                testing, including DNS authentication records (SPF, DKIM, DMARC).
+              </li>
+              <li>
+                Tuned SMTP pipelines to achieve consistent 98%+ inbox
+                deliverability across multiple MTAs.
+              </li>
+            </ul>
+            <div class="tags">
+              <span>Python</span><span>SMTP</span><span>DNS</span><span>SPF / DKIM / DMARC</span>
+            </div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="section container education-section" id="education">
+      <div class="section-heading">
+        <p class="eyebrow">04 / EDUCATION &amp; CERTIFICATIONS</p>
+        <h2>Learning is part of <span>the work.</span></h2>
+      </div>
+
+      <div class="education-card">
+        <div>
+          <p class="role-label">NOV 2022 — MAY 2026</p>
+          <h3>GITA Autonomous College</h3>
+          <p class="muted">B.Tech in Computer Science and IT · CGPA: 7.9/10</p>
+          <p class="coursework">
+            Relevant coursework: Data Structures &amp; Algorithms, Database
+            Management Systems, Computer Networks, Operating Systems.
+          </p>
+        </div>
+        <span class="education-location">Bhubaneswar, Odisha</span>
+      </div>
+
+      <div class="certifications">
+        <h3>Certifications</h3>
+        <div class="cert-list">
+          <a
+            class="cert-link"
+            href="https://lnkd.in/p/dJ45CMbj"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <span>Full Stack Developer</span>
+            <b>Upskill Campus · View certificate ↗</b>
+          </a>
+
+          <a
+            class="cert-link"
+            href="https://lnkd.in/p/dn9PUSRg"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <span>SQL and Relational Databases 101</span>
+            <b>IBM · View certificate ↗</b>
+          </a>
+
+          <a
+            class="cert-link"
+            href="1-2f05ed0f-c36d-4c8f-930c-49dd0ae4552a.pdf"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <span>Angular Web Developer Certification</span>
+            <b>View certificate ↗</b>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section container projects-section" id="projects">
+      <div class="section-heading">
+        <p class="eyebrow">05 / SELECTED PROJECTS</p>
+        <h2>Built to solve <span>real problems.</span></h2>
+      </div>
+
+      <div class="filters" role="group" aria-label="Filter projects">
+        <button class="filter active" type="button" data-filter="all">
+          All <span>02</span>
+        </button>
+        <button class="filter" type="button" data-filter="backend">
+          Backend <span>01</span>
+        </button>
+        <button class="filter" type="button" data-filter="automation">
+          Automation <span>01</span>
+        </button>
+      </div>
+
+      <div class="project-grid">
+        <article class="project-card" data-category="backend">
+          <div class="project-art project-art-one">
+            <span class="project-number">PROJECT / 01</span>
+            <div class="api-graphic"><span>API</span><i>↔</i><span>DB</span></div>
+          </div>
+
+          <div class="project-body">
+            <p class="project-type">BACKEND · API · PAYMENT SYSTEMS</p>
+            <h3>Distributed Order &amp; Payment Processing API</h3>
+            <p>
+              Payment processing service designed for safe, reliable order
+              handling and checkout workflows.
+            </p>
+            <ul class="project-points">
+              <li>Used PostgreSQL transaction locks to resolve checkout concurrency issues.</li>
+              <li>Applied relational constraints and optimistic locking for ACID compliance.</li>
+              <li>Added Redis token-bucket rate limiting and asynchronous task queues.</li>
+              <li>Achieved 92%+ PyTest coverage with mocked payment gateways.</li>
+            </ul>
+            <div class="tags">
+              <span>Python</span><span>PostgreSQL</span><span>Docker</span><span>PyTest</span>
+            </div>
+          </div>
+        </article>
+
+        <article class="project-card" data-category="automation">
+          <div class="project-art project-art-two">
+            <span class="project-number">PROJECT / 02</span>
+            <div class="dns-graphic"><span>DNS</span><i>✳</i><span>98%+</span></div>
+          </div>
+
+          <div class="project-body">
+            <p class="project-type">AUTOMATION · EMAIL · NETWORKING</p>
+            <h3>Infrastructure &amp; DNS Deliverability Monitor</h3>
+            <p>
+              CLI tool for validating DNS and SMTP health across domains and
+              detecting delivery issues.
+            </p>
+            <ul class="project-points">
+              <li>Parsed and validated MX, SPF, and DMARC records alongside SMTP handshake latency.</li>
+              <li>Automated alerts for domain reputation drops using raw socket responses and network metrics.</li>
+              <li>Added modular exception handling, type annotations, and mock tests for degraded network scenarios.</li>
+            </ul>
+            <div class="tags">
+              <span>Python</span><span>Playwright</span><span>SQL</span><span>Git</span>
+            </div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="section social-section" id="social">
+      <div class="container">
+        <div class="section-heading">
+          <p class="eyebrow">06 / FIND ME ONLINE</p>
+          <h2>Let’s connect <span>on social.</span></h2>
+        </div>
+
+        <div class="social-grid">
+          <a
+            class="social-card"
+            href="https://www.linkedin.com/in/ayush-satapathy"
+            target="_blank"
+            rel="noreferrer"
+            aria-label="Visit Ayush on LinkedIn"
+          >
+            <svg class="social-icon linkedin-icon" viewBox="0 0 24 24" aria-hidden="true">
+              <path d="M19 3a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h14ZM8.34 10H5.67v8h2.67v-8ZM7 5.75a1.55 1.55 0 1 0 0 3.1 1.55 1.55 0 0 0 0-3.1ZM18.33 13.42c0-2.41-1.29-3.54-3.01-3.54a2.6 2.6 0 0 0-2.34 1.29V10h-2.67v8h2.67v-4.39c0-1.16.22-2.29 1.67-2.29 1.42 0 1.44 1.34 1.44 2.37V18h2.67l-.43-4.58Z"/>
+            </svg>
+            <span>LinkedIn</span>
+            <b>Professional profile ↗</b>
+          </a>
+
+          <a
+            class="social-card"
+            href="https://www.instagram.com/ayush_cosmosis?srtk=a2x0NTRqa2JydXRv"
+            target="_blank"
+            rel="noreferrer"
+            aria-label="Visit Ayush on Instagram"
+          >
+            <svg class="social-icon instagram-icon" viewBox="0 0 24 24" aria-hidden="true">
+              <defs>
+                <linearGradient id="instagram-gradient" x1="0%" y1="100%" x2="100%" y2="0%">
+                  <stop offset="0%" stop-color="#feda75" />
+                  <stop offset="35%" stop-color="#fa7e1e" />
+                  <stop offset="65%" stop-color="#d62976" />
+                  <stop offset="100%" stop-color="#4f5bd5" />
+                </linearGradient>
+              </defs>
+              <path fill="url(#instagram-gradient)" d="M7.5 2h9A5.5 5.5 0 0 1 22 7.5v9a5.5 5.5 0 0 1-5.5 5.5h-9A5.5 5.5 0 0 1 2 16.5v-9A5.5 5.5 0 0 1 7.5 2Zm0 2A3.5 3.5 0 0 0 4 7.5v9A3.5 3.5 0 0 0 7.5 20h9a3.5 3.5 0 0 0 3.5-3.5v-9A3.5 3.5 0 0 0 16.5 4h-9ZM12 7a5 5 0 1 1 0 10 5 5 0 0 1 0-10Zm0 2a3 3 0 1 0 0 6 3 3 0 0 0 0-6Zm5.25-3.5a1.25 1.25 0 1 1 0 2.5 1.25 1.25 0 0 1 0-2.5Z"/>
+            </svg>
+            <span>Instagram</span>
+            <b>Personal profile ↗</b>
+          </a>
+
+          <a
+            class="social-card"
+            href="https://github.com/AyushSatapathy0810"
+            target="_blank"
+            rel="noreferrer"
+            aria-label="Visit Ayush on GitHub"
+          >
+            <svg class="social-icon github-icon" viewBox="0 0 24 24" aria-hidden="true">
+              <path d="M12 .9a11.1 11.1 0 0 0-3.51 21.63c.56.1.76-.24.76-.54v-2.1c-3.1.67-3.76-1.32-3.76-1.32-.5-1.28-1.24-1.62-1.24-1.62-1.02-.7.08-.69.08-.69 1.13.08 1.72 1.16 1.72 1.16 1 .1.76 2.66 3.27 1.87.1-.73.39-1.23.7-1.51-2.48-.28-5.09-1.24-5.09-5.51 0-1.22.44-2.22 1.16-3-.12-.28-.5-1.42.11-2.96 0 0 .95-.3 3.05 1.15a10.58 10.58 0 0 1 5.55 0c2.11-1.45 3.05-1.15 3.05-1.15.61 1.54.23 2.68.11 2.96.72.78 1.16 1.78 1.16 3 0 4.28-2.61 5.22-5.1 5.5.4.35.76 1.02.76 2.06v3.06c0 .3.2.65.77.54A11.1 11.1 0 0 0 12 .9Z"/>
+            </svg>
+            <span>GitHub</span>
+            <b>Code and projects ↗</b>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact-section" id="contact">
+      <div class="container contact-inner">
+        <div>
+          <p class="eyebrow">07 / GET IN TOUCH</p>
+          <h2>Let’s build<br /><span>something useful.</span></h2>
+          <p class="contact-copy">
+            Interested in working together or have an opportunity in mind?
+            I’d be glad to hear from you.
+          </p>
+          <a class="contact-email" href="mailto:ayushsatapathy13@gmail.com">
+            ayushsatapathy13@gmail.com ↗
+          </a>
+          <p class="contact-phone">
+            <a href="tel:+917008301609">+91 7008301609</a> · Bhubaneswar, Odisha
+          </p>
+        </div>
+
+        <form id="contact-form" class="contact-form">
+          <label for="name">Your name</label>
+          <input id="name" name="name" type="text" required placeholder="Your name" />
+
+          <label for="email">Your email</label>
+          <input id="email" name="email" type="email" required placeholder="you@company.com" />
+
+          <label for="message">Your message</label>
+          <textarea
+            id="message"
+            name="message"
+            rows="4"
+            required
+            placeholder="Tell me about the opportunity..."
+          ></textarea>
+
+          <button class="button button-primary" type="submit">
+            Open email draft <span aria-hidden="true">↗</span>
+          </button>
+          <p class="form-note" id="form-note" aria-live="polite">
+            This form opens your email app; it does not store messages.
+          </p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer container">
+    <p class="footer-copy">Ayush Satapathy@2026</p>
+    <div class="footer-links">
+      <a
+        class="footer-icon-link"
+        href="https://www.linkedin.com/in/ayush-satapathy"
+        target="_blank"
+        rel="noreferrer"
+        aria-label="Visit Ayush on LinkedIn"
+      >
+        <svg viewBox="0 0 24 24" aria-hidden="true">
+          <path d="M19 3a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h14ZM8.34 10H5.67v8h2.67v-8ZM7 5.75a1.55 1.55 0 1 0 0 3.1 1.55 1.55 0 0 0 0-3.1ZM18.33 13.42c0-2.41-1.29-3.54-3.01-3.54a2.6 2.6 0 0 0-2.34 1.29V10h-2.67v8h2.67v-4.39c0-1.16.22-2.29 1.67-2.29 1.42 0 1.44 1.34 1.44 2.37V18h2.67l-.43-4.58Z"/>
+        </svg>
+        <span>LinkedIn</span>
+      </a>
+
+      <a
+        class="footer-icon-link email-footer-link"
+        href="mailto:ayushsatapathy13@gmail.com"
+        aria-label="Email Ayush Satapathy"
+      >
+        <svg viewBox="0 0 24 24" aria-hidden="true">
+          <path d="M20 4H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V6a2 2 0 0 0-2-2Zm0 4-8 5-8-5V6l8 5 8-5v2Z"/>
+        </svg>
+        <span>ayushsatapathy13@gmail.com</span>
+      </a>
+    </div>
+  </footer>
+
+  <div
+    class="welcome-overlay"
+    id="welcome-popup"
+    role="dialog"
+    aria-modal="true"
+    aria-labelledby="welcome-title"
+    hidden
+  >
+    <div class="welcome-card">
+      <button class="welcome-close" type="button" aria-label="Close welcome popup">×</button>
+      <span class="welcome-sparkle" aria-hidden="true">✦</span>
+      <p class="eyebrow">WELCOME</p>
+      <h2 id="welcome-title">Hi, I’m<br /><span>Ayush Satapathy.</span></h2>
+      <p>
+        I’m a software developer interested in building reliable software
+        and helping teams solve real-world problems.
+      </p>
+      <a class="button button-primary welcome-button" href="#home">
+        Meet Ayush <span aria-hidden="true">↘</span>
+      </a>
+    </div>
+  </div>
+</body>
+</html>
